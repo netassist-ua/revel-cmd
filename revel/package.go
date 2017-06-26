@@ -10,7 +10,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/revel/revel"
+	"github.com/netassist-ua/revel"
 )
 
 var cmdPackage = &Command{

@@ -18,7 +18,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/revel/revel"
+	"github.com/netassist-ua/revel"
 )
 
 var importErrorPattern = regexp.MustCompile("cannot find package \"([^\"]+)\"")
@@ -375,9 +375,9 @@ package main
 import (
 	"flag"
 	"reflect"
-	"github.com/revel/revel"{{range $k, $v := $.ImportPaths}}
+	"github.com/netassist-ua/revel"{{range $k, $v := $.ImportPaths}}
 	{{$v}} "{{$k}}"{{end}}
-	"github.com/revel/revel/testing"
+	"github.com/netassist-ua/revel/testing"
 )
 
 var (
@@ -428,7 +428,7 @@ func main() {
 const RevelRoutesTemplate = `// GENERATED CODE - DO NOT EDIT
 package routes
 
-import "github.com/revel/revel"
+import "github.com/netassist-ua/revel"
 
 {{range $i, $c := .Controllers}}
 type t{{.StructName}} struct {}

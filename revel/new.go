@@ -15,7 +15,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/revel/revel"
+	"github.com/netassist-ua/revel"
 )
 
 var cmdNew = &Command{

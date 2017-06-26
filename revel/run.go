@@ -8,8 +8,8 @@ import (
 	"go/build"
 	"strconv"
 
-	"github.com/revel/cmd/harness"
-	"github.com/revel/revel"
+	"github.com/netassist-ua/revel-cmd/harness"
+	"github.com/netassist-ua/revel"
 )
 
 var cmdRun = &Command{

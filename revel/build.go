@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/revel/cmd/harness"
-	"github.com/revel/revel"
+	"github.com/netassist-ua/revel-cmd/harness"
+	"github.com/netassist-ua/revel"
 )
 
 var cmdBuild = &Command{

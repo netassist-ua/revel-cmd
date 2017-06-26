@@ -18,7 +18,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/revel/revel"
+	"github.com/netassist-ua/revel"
 )
 
 // SourceInfo is the top-level struct containing all extracted information
@@ -646,7 +646,7 @@ func getStructTypeDecl(decl ast.Decl, fset *token.FileSet) (spec *ast.TypeSpec, 
 
 // TypesThatEmbed returns all types that (directly or indirectly) embed the
 // target type, which must be a fully qualified type name,
-// e.g. "github.com/revel/revel.Controller"
+// e.g. "github.com/netassist-ua/revel.Controller"
 func (s *SourceInfo) TypesThatEmbed(targetType string) (filtered []*TypeInfo) {
 	// Do a search in the "embedded type graph", starting with the target type.
 	var (

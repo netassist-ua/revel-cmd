@@ -15,7 +15,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/revel/revel"
+	"github.com/netassist-ua/revel"
 )
 
 // LoggedError is wrapper to differentiate logged panics from unexpected ones.

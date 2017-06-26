@@ -15,9 +15,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/revel/cmd/harness"
-	"github.com/revel/modules/testrunner/app/controllers"
-	"github.com/revel/revel"
+	"github.com/netassist-ua/revel-cmd/harness"
+	"github.com/netassist-ua/revel-modules/testrunner/app/controllers"
+	"github.com/netassist-ua/revel"
 )
 
 var cmdTest = &Command{
@@ -194,7 +194,7 @@ func filterTestSuites(suites *[]controllers.TestSuiteDesc, suiteArgument string)
 func checkTestRunner() {
 	testRunnerFound := false
 	for _, module := range revel.Modules {
-		if module.ImportPath == revel.Config.StringDefault("module.testrunner", "github.com/revel/modules/testrunner") {
+		if module.ImportPath == revel.Config.StringDefault("module.testrunner", "github.com/netassist-ua/revel-modules/testrunner") {
 			testRunnerFound = true
 			break
 		}
@@ -205,7 +205,7 @@ func checkTestRunner() {
 
 You can add it to a run mode configuration with the following line:
 
-	module.testrunner = github.com/revel/modules/testrunner
+	module.testrunner = github.com/netassist-ua/revel-modules/testrunner
 
 `)
 	}

@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/revel/revel"
+	"github.com/netassist-ua/revel"
 )
 
 var cmdVersion = &Command{

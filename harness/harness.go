@@ -28,7 +28,7 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/revel/revel"
+	"github.com/netassist-ua/revel"
 )
 
 var (

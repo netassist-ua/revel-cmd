@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/revel/revel"
+	"github.com/netassist-ua/revel"
 )
 
 const validationKeysSource = `

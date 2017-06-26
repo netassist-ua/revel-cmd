@@ -21,7 +21,7 @@ import (
 
 const (
 	// RevelCmdImportPath Revel framework cmd tool import path
-	RevelCmdImportPath = "github.com/revel/cmd"
+	RevelCmdImportPath = "github.com/netassist-ua/revel-cmd"
 
 	// DefaultRunMode for revel's application
 	DefaultRunMode = "dev"

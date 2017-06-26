@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/revel/revel"
+	"github.com/netassist-ua/revel"
 )
 
 var (

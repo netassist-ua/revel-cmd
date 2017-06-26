@@ -13,7 +13,7 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/revel/revel"
+	"github.com/netassist-ua/revel"
 )
 
 // App contains the configuration for running a Revel app.  (Not for the app itself)
